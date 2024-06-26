@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 993px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body{
+    background-color: black;
+    font-family: 'Nunito Sans';
+}
+
+/* HEADER */
+
+header{
+    margin-bottom: 138px;
+}
+
+.header__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 622px;
+    margin: 50px 94px 0;
+}
+
+.header__logo{
+    width: 67px;
+    height: 38px;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 81px;
+
+}
+
+.header__menu--navlist{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 81px;
+}
+
+.header__menu--navitem{
+    font-weight: 600;
+    color: 
+    rgba(255, 255, 255, 1);
+    font-style: 18px;
+    line-height: 24px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+
+.header__menu--navitem:hover{
+    border-bottom: white 1px solid;
+    text-shadow: 1px 2px 3px #fff;
+    padding: 10px;
+}
+
+.header__buttons--whitebutton{
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 10px;
+    padding: 15px 25px;
+    width: 146px;
+    transition: all 0.5s linear;
+}
+
+.header__buttons--whitebutton:hover{
+    border: white 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+/* HERO */
+
+.hero{
+    margin-bottom: 90px;
+}
+
+.hero__container{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 63px;
+    margin: 50px 94px 0;
+}
+
+.hero__info--title{
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 78px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.hero__info--description{
+    font-weight: 600;
+    color: #fff;
+    font-size: 20px;
+    line-height: 78px;
+    margin-bottom: 34px;
+}
+
+.hero__buttons{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero__buttons--black-button{
+    border: white 1px solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    width: 146px;
+    padding: 15px 25px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+
+.hero__buttons--black-button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.hero__img{
+    width: 669px;
+    height: 568px;
+}
+
+/* BOTTOM */
+
+.bottom__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
